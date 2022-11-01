@@ -16,3 +16,20 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* оформлення для 2 завдання  */
+.timer {
+  display: flex;
+  gap: 40px;
+}
+
+.field {
+  font-size: 20px;
+  color: #307DF0;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 15px;
+  color: #000;
+}

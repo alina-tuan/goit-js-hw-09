@@ -2,7 +2,7 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import Notiflix from 'notiflix';
 
-const timerMarkup = document.querySelector('.timer');
+// const timerStyle = document.querySelector('.timer');
 const btnStart = document.querySelector('button[data-start]');
 const currentTime = Date.now();
 const daysRef = document.querySelector('span[data-days]');
@@ -11,8 +11,8 @@ const minsRef = document.querySelector('span[data-minutes]');
 const secsRef = document.querySelector('span[data-seconds]');
 
 // Оформлення
-timerMarkup.style.display = 'flex';
-timerMarkup.style.justifyContent = 'space-evenly';
+// timerStyle.style.display = 'flex';
+// timerStyle.style.gap = '40px';
 
 btnStart.setAttribute('disabled', true);
 
